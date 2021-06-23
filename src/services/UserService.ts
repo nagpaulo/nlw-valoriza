@@ -1,11 +1,6 @@
 import { getCustomRepository } from "typeorm";
+import { IUserRequest } from "../entities/vo/IUserRequest";
 import { UserRepository } from "../repositories/UserRepository";
-
-interface IUserRequest {
-  name: string;
-  email: string;
-  admin?: boolean; 
-}
 
 class UserService {
   async executeCreate({ name, email, admin }: IUserRequest) {
