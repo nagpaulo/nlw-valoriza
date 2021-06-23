@@ -1,9 +1,14 @@
 {
   "type": "postgres",
-  "host": "hr-postgres",
+  "host": "localhost",
   "port": "5432",
   "username": "postgres",
   "password": "postgres",
-  "database": "nwl_valoriza",
-  "synchronize": "false"
+  "database": "nlw_valoriza",
+  "synchronize": "false",
+  "migrations": ["src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "src/database/migrations",
+    "entitiesDir": "src/entities" 
+  }
 }
