@@ -18,7 +18,7 @@ class AuthenticationUserService {
       }, 
         "e8f47832e8dd5bead67d89fb4c68e107",
       {
-        subject: user.code_id,
+        subject: user.id.toString(),
         expiresIn: "1d"
       }
     );
