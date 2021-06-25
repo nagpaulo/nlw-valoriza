@@ -16,6 +16,9 @@ class User {
   email: string;
 
   @Column()
+  password: string;
+
+  @Column()
   admin: boolean;
 
   @CreateDateColumn()
