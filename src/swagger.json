@@ -1,0 +1,12 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API RestFull",
+    "description": "Modelo de REST para recursos",
+    "termsOfService": "http://locahost:3000/terms",
+    "contact": {
+      "email": "nagpaulo@gmail.com"
+    },
+    "version": "1.0.0"
+  }
+}
